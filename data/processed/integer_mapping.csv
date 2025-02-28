@@ -1,0 +1,14 @@
+DemGender,Encoded,DemReg,Encoded,DemTVReg,Encoded,LoyalClass,Encoded,DemClusterGroup,Encoded
+F,0.0,Midlands,0.0,Border,0,Gold,0.0,A,0.0
+M,1.0,North,1.0,C Scotland,1,Platinum,1.0,B,1.0
+U,2.0,Scottish,2.0,East,2,Silver,2.0,C,2.0
+,,South East,3.0,London,3,Tin,3.0,D,3.0
+,,South West,4.0,Midlands,4,,,E,4.0
+,,,,N East,5,,,F,5.0
+,,,,N Scot,6,,,U,6.0
+,,,,N West,7,,,,
+,,,,S & S East,8,,,,
+,,,,S West,9,,,,
+,,,,Ulster,10,,,,
+,,,,Wales & West,11,,,,
+,,,,Yorkshire,12,,,,
