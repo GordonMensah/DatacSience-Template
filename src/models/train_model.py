@@ -26,13 +26,11 @@ X_test = scaler.transform(X_test)
 # Train the Logistic Regression model
 classifier = LogisticRegression(random_state=0)
 classifier.fit(X_train, y_train)
-
-# Save the trained model
-joblib.dump(classifier, 'C:/Users/mhizg/Downloads/LogisticRegression.pkl')
-print("Model has been trained and saved as LogisticRegression.pkl")
-
-# Make predictions
 y_pred = classifier.predict(X_test)
+
+# Save the Logistic Regression model classifier
+joblib.dump(classifier, 'C:/Users/mhizg/Downloads/logistic_classifier.pkl')
+print("Logistic Regression model saved as logistic_classifier.pkl")
 
 # Evaluate the model
 print("Confusion Matrix:")
@@ -64,3 +62,4 @@ df_x_test = pd.DataFrame(X_test, columns=[f'Feature_{i}' for i in range(X_test.s
 dfx = pd.concat([df_x_test, df_test_df, df_pred_prob], axis=1)
 dfx.to_csv('C:/Users/mhizg/Downloads/Modeloutput_10Percent.csv', index=False)
 print("Predictions saved to Modeloutput_10Percent.csv")
+
